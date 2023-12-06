@@ -1,3 +1,5 @@
+# Text Extraction from Image:-
+
 from flask import Flask, render_template, request, redirect, url_for
 from ocr_engine import OCREngine
 from helper import allowed_file, save_uploaded_file
@@ -26,3 +28,7 @@ def index():
 
 if __name__ == '__main__':
     app.run(debug=True)
+
+
+
+
